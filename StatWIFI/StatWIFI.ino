@@ -35,9 +35,9 @@ void drawWifiQuality();
 
 char* ssid = NULL;
 char* password = NULL;
-char* host = NULL;  // IP serveur - Server IP
-int port = 8085;            // Port serveur - Server Port
-const int   watchdog = 5000;        // Fréquence du watchdog - Watchdog frequency
+char* host = NULL;  
+int port = 8085;                    // Дефолтный порт
+const int   watchdog = 5000;        // Максимальное время ожидания ответа от сервера
 unsigned long previousMillis = millis(); 
 unsigned long updatePrevMillis  = millis();
 int payloadPage = 0;
