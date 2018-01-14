@@ -19,7 +19,7 @@ ESPBurner позволяет вывадить на OLED экранчик дан�
 
 Для успешной компиляции необходимы следующте библиотеки:
 
-* [CppRestSDK](https://github.com/Microsoft/cpprestsdk) - ESP8266 для Arduino IDE.
+* [CppRestSDK](https://github.com/Microsoft/cpprestsdk) - Работа с http сервисами.
 
 ## Управление
 
