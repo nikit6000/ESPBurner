@@ -187,13 +187,13 @@ void processSerial (){
         buffer[bufferLen - 1] =  chr;
     }
     if (buffer != NULL)
-        delete [] buffer;
+        free(buffer);
     processCommand(command,commandLen);
     if (command != NULL) {
         for (int i = 0; i < commandLen; i++){
-            delete [] command[i];
+            free(command[i]);
         }
-        delete [] command;
+        free(command);
     }
 }
 
