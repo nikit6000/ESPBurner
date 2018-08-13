@@ -1,6 +1,6 @@
 # ESPBurner
 
-ESPBurner позволяет вывадить на OLED экранчик данные из MSI After Burner.
+ESPBurner позволяет выводить на OLED экранчик данные из MSI After Burner.
 
 ## Как пользоваться
 
